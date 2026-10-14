@@ -21,4 +21,53 @@ html {
   white-space: nowrap;
   width: 1px;
 }
-body{font-family: Futura,Trebuchet MS,Arial,sans-serif; }
+
+body{
+  font-family: "Marvel", sans-serif;
+  margin:0;
+}
+
+header.primary{
+  background-color: #B7AEF2;
+  color:#ffffff;
+  text-align:center;
+  text-shadow:1px 1px #000000;
+  padding:40px;
+  /* Longform */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* T/R/B/L */
+  padding: 40px 40px 40px 40px;
+  /* T/B | L/R */
+  padding: 20px 40px;
+}
+
+header.primary a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+header.primary h1{
+  font-size: 3rem;
+  margin:0;
+}
+
+header.primary p.subtitle{
+  font-size: 1.5rem;
+  font-weight:bold;
+  /* top |l/r| bottom */
+  margin: 10px 0 20px;
+  letter-spacing: -1px;
+}
+
+nav.primary ul{
+  background:#DBD8F2;
+  padding: 0;
+}
+nav.primary ul li{
+  background:#6C72D9;
+  list-style-type: none;
+}
+nav.primary ul li a{}

@@ -7,6 +7,12 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+
+/* - - - - - Responsive Images - - - - - */
+img{
+  max-width: 100%;
+}
  
  
 /* Skip link utility: hidden until focused */
@@ -31,7 +37,6 @@ html {
   max-width: 960px;
   margin: 40px auto;
 }
-
 
 
 
@@ -101,6 +106,59 @@ nav.primary ul li a:hover{
   background-color: rgba(0,0,0,.8);
 }
 
+#content h2{
+  color:#B7AEF2;
+  border-bottom: 1px outset #000;
+}
+
+#content p{
+  line-height: 2;
+}
+
+#blog{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+
+#blog figure{
+  margin:0;
+}
+
+#blog .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,.6);
+  padding:10px;
+  font-size:.8rem;
+  flex:1;
+}
+
+#blog h2{
+  flex: 0 0 100%;
+}
+
+#blog time.post-date, #blog figcaption{
+  text-transform:uppercase;
+  font-size: .6rem;
+}
+
+#blog a{
+  color:#3b638b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* - - - - - Media Queries - - - - - */
 
@@ -111,5 +169,12 @@ nav.primary ul{
   gap:10px;
 }
 
+.container{
+  width:95vw;
+}
+
+#blog{
+  flex-direction: column;
+}
 
 }

@@ -320,3 +320,316 @@ nav.primary ul{
 }
 
 }
+
+/* ---------- Updated Color Scheme ---------- */
+
+body {
+  background-color: #DBD8F2;
+  color: #102040;
+}
+
+/* Header */
+header.primary {
+  background-color: #3B478C;
+  color: #ffffff;
+}
+
+header.primary a {
+  color: #ffffff;
+}
+
+/* Navigation */
+nav.primary ul li a {
+  background-color: #6C72D9;
+  border-color: #102040;
+  color: #ffffff;
+}
+
+nav.primary ul li a:hover {
+  background-color: #102040;
+}
+
+/* Main Content */
+main.container {
+  background-color: #ffffff;
+}
+
+#content h2 {
+  color: #3B478C;
+  border-bottom-color: #6C72D9;
+}
+
+/* Blog Posts */
+#blog {
+  border-color: #B7AEF2;
+}
+
+#blog .post {
+  background-color: #ffffff;
+  border: 1px solid #B7AEF2;
+}
+
+#blog a {
+  color: #3B478C;
+}
+
+#blog a:hover {
+  color: #6C72D9;
+}
+
+/* Practice Section */
+#practice h2 {
+  color: #3B478C;
+  border-bottom-color: #B7AEF2;
+}
+
+#practice h3 {
+  border-left-color: #6C72D9;
+}
+
+#practice a:link,
+#practice a:visited {
+  color: #3B478C;
+}
+
+/* Tables */
+#practice table,
+#practice td {
+  border-color: #B7AEF2;
+}
+
+#practice th {
+  background-color: #3B478C;
+  color: #ffffff;
+}
+
+#practice tr:nth-child(even) {
+  background-color: #DBD8F2;
+}
+
+#practice tr:hover {
+  background-color: #B7AEF2;
+}
+
+/* Blockquotes */
+#practice blockquote {
+  background-color: #6C72D9;
+  border-color: #3B478C;
+  color: #ffffff;
+}
+
+/* Sidebar */
+aside[aria-label="Sidebar"] {
+  background-color: #3B478C;
+  color: #ffffff;
+}
+
+/* Footer */
+footer.primary {
+  background-color: #102040;
+  color: #ffffff;
+}
+
+/* ---------- Color Scheme ---------- */
+
+/* Main Page */
+body {
+  background-color: #DBD8F2;
+  color: #102040;
+}
+
+main.container {
+  background-color: #DBD8F2;
+}
+
+/* Header */
+header.primary {
+  background-color: #3B478C;
+  color: #ffffff;
+}
+
+header.primary a {
+  color: #ffffff;
+}
+
+header.primary h1 {
+  color: #ffffff;
+}
+
+header.primary p.subtitle {
+  color: #DBD8F2;
+}
+
+/* Navigation */
+nav.primary ul li a {
+  background-color: #6C72D9;
+  border-color: #102040;
+  color: #ffffff;
+}
+
+nav.primary ul li a:hover {
+  background-color: #102040;
+}
+
+/* Introduction */
+#content {
+  background-color: #DBD8F2;
+  color: #102040;
+}
+
+#content h2 {
+  color: #3B478C;
+  border-bottom-color: #6C72D9;
+}
+
+#content p {
+  color: #102040;
+}
+
+/* Blog Section */
+#blog {
+  background-color: #DBD8F2;
+  border-color: #B7AEF2;
+}
+
+#blog h2 {
+  color: #3B478C;
+}
+
+#blog .post {
+  background-color: #B7AEF2;
+  border: 1px solid #6C72D9;
+  color: #102040;
+}
+
+#blog .post h3 {
+  color: #102040;
+}
+
+#blog .post p {
+  color: #102040;
+}
+
+#blog a {
+  color: #3B478C;
+}
+
+#blog a:hover {
+  color: #102040;
+}
+
+#blog figcaption,
+#blog time.post-date {
+  color: #3B478C;
+}
+
+/* Practice Section */
+#practice {
+  background-color: #DBD8F2;
+  color: #102040;
+}
+
+#practice h2 {
+  color: #3B478C;
+  border-bottom-color: #B7AEF2;
+}
+
+#practice h3 {
+  color: #3B478C;
+  border-left-color: #6C72D9;
+}
+
+#practice h4 {
+  color: #3B478C;
+}
+
+#practice a:link,
+#practice a:visited {
+  color: #3B478C;
+}
+
+#practice a:hover {
+  color: #6C72D9;
+}
+
+/* Tables */
+#practice table,
+#practice td {
+  border-color: #6C72D9;
+}
+
+#practice th {
+  background-color: #3B478C;
+  color: #ffffff;
+}
+
+#practice tr {
+  background-color: #DBD8F2;
+}
+
+#practice tr:nth-child(even) {
+  background-color: #B7AEF2;
+}
+
+#practice tr:hover {
+  background-color: #6C72D9;
+  color: #ffffff;
+}
+
+/* Lists */
+#practice ol,
+#practice ul,
+#practice dl {
+  color: #102040;
+}
+
+#practice dt {
+  color: #3B478C;
+}
+
+/* Blockquotes */
+#practice blockquote {
+  background-color: #6C72D9;
+  border-color: #3B478C;
+  color: #ffffff;
+}
+
+#practice blockquote cite {
+  color: #DBD8F2;
+}
+
+/* Sidebar */
+aside[aria-label="Sidebar"] {
+  background-color: #3B478C;
+  color: #ffffff;
+}
+
+aside .widget {
+  color: #ffffff;
+}
+
+aside .widget h2 {
+  color: #DBD8F2;
+}
+
+aside .widget p {
+  color: #ffffff;
+}
+
+aside .widget a {
+  color: #DBD8F2;
+}
+
+aside .widget a:hover {
+  color: #B7AEF2;
+}
+
+/* Footer */
+footer.primary {
+  background-color: #102040;
+  color: #ffffff;
+}
+
+footer.primary p {
+  color: #ffffff;
+}

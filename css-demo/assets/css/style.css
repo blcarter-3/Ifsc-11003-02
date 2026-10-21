@@ -38,8 +38,26 @@ img{
   margin: 40px auto;
 }
 
+.img-right{
+  float:right;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  margin: 10px 0 10px 20px;
+}
 
+.img-left{
+  float:left;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  margin: 10px 20px 10px 0px;
+}
 
+.img-center{
+ display:block;
+ margin:20px auto;
+ border:1px solid #c0c0c0;
+ padding:5px;
+}
 /* - - - - Global styles - - - -  */
 
 body{
@@ -121,6 +139,11 @@ nav.primary ul li a:hover{
   justify-content: space-between;
   flex-wrap: wrap;
   gap:20px;
+  padding-bottom: 20px;
+  margin-bottom:40px;
+  border-bottom: 4px double #ccc;
+  margin-top:40px;
+  border-top: 4px double #ccc;
 }
 
 
@@ -148,14 +171,55 @@ nav.primary ul li a:hover{
   color:#3b638b;
 }
 
+#practice h2{
+  color:#6c72d9;
+  border-bottom:1px dotted #cccccc;
+}
 
+#practice h3{
+  border-left:7.5px solid #6c72d9;
+  padding:5px 0 5px 10px;
+}
 
+#practice a:link, #practice a:visited{
+  color:#B7AEF2
+}
 
+#practice{
+  line-height:1.6;
+}
 
+aside[aria-label="Sidebar"]{
+  background-color: #6c72d9;
+  color:#ffffff;
+  padding:20px 0;
+}
 
+aside div.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:40px;
+}
 
+aside div.container a:last-child{
+  color:#ffffff;
+  display:block;
+  margin-top:10px;
+  text-align: right;
+}
 
+aside .widget footer{
+  display:none;
+}
 
+footer.primary{
+  background-color:#B7AEF2;
+  padding:1px;
+  color:#ffffff;
+  text-align: center;
+  text-shadow:1px 1px#000000;
+}
 
 
 
